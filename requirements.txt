@@ -5,7 +5,6 @@ flexgen==0.1.7
 gradio==3.24.1
 markdown
 numpy
-Pillow>=9.5.0
 peft==0.2.0
 requests
 rwkv==0.7.3
@@ -13,4 +12,4 @@ safetensors==0.3.0
 sentencepiece
 pyyaml
 tqdm
-git+https://github.com/danmincu/transformers-M40
+git+https://github.com/huggingface/transformers

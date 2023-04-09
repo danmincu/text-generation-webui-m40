@@ -1,8 +1,10 @@
 # Text generation web UI
 
-A gradio web UI for running Large Language Models like LLaMA, llama.cpp, GPT-J, Pythia, OPT, and GALACTICA.
+A gradio web UI for running Large Language Models like LLaMA, llama.cpp, GPT-J, OPT, and GALACTICA.
 
 Its goal is to become the [AUTOMATIC1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui) of text generation.
+
+[[Try it on Google Colab]](https://colab.research.google.com/github/oobabooga/AI-Notebooks/blob/main/Colab-TextGen-GPU.ipynb)
 
 |![Image1](https://github.com/oobabooga/screenshots/raw/main/qa.png) | ![Image2](https://github.com/oobabooga/screenshots/raw/main/cai3.png) |
 |:---:|:---:|
@@ -32,17 +34,20 @@ Its goal is to become the [AUTOMATIC1111/stable-diffusion-webui](https://github.
 * [LoRA (loading and training)](https://github.com/oobabooga/text-generation-webui/wiki/Using-LoRAs)
 * Softprompts
 * [Extensions](https://github.com/oobabooga/text-generation-webui/wiki/Extensions)
+* [Google Colab](https://github.com/oobabooga/text-generation-webui/wiki/Running-on-Colab)
 
 ## Installation
 
 ### One-click installers
 
-Just all the files in the source code below as zip, extract it, and double click on "install". The web UI and all its dependencies will be installed in the same folder.
+[oobabooga-windows.zip](https://github.com/oobabooga/text-generation-webui/releases/download/installers/oobabooga-windows.zip)
+
+Just download the zip above, extract it, and double click on "install". The web UI and all its dependencies will be installed in the same folder.
 
 * To download a model, double click on "download-model"
 * To start the web UI, double click on "start-webui" 
 
-Source codes: https://github.com/danmincu/one-click-installers-m40
+Source codes: https://github.com/oobabooga/one-click-installers
 
 > **Note**
 > 

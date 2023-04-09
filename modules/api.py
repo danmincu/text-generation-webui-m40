@@ -20,16 +20,12 @@ def generate_reply_wrapper(string):
         'min_length': 0,
         'length_penalty': 1,
         'no_repeat_ngram_size': 0,
-        'early_stopping': False
+        'early_stopping': False,
     }
     params = json.loads(string)
     for k in params[1]:
         generate_params[k] = params[1][k]
-    stopping_words = []
-    if len(params) > 2 and isinstance(params[2], list):
-        stopping_words = params[2]
-    # , None, [f"\n### Human:", f"\n### Assistant:", f"\n### Human", f"\n### Assistant"]):
-    for i in generate_reply(params[0], generate_params, None, stopping_words):
+    for i in generate_reply(params[0], generate_params):
         yield i
 
 
