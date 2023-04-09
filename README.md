@@ -52,13 +52,15 @@ Source codes: https://github.com/danmincu/one-click-installers-m40
 > 
 > There is no need to run the installer as admin.
 
-### Tested Tesla M40 on Ubuntu 22.04 minimal server (+ git) and Nvidia updated drivers
+### Install the Tesla M40 on Ubuntu 22.04 minimal server with Nvidia updated drivers
 
-[linux-install.sh]([https://raw.githubusercontent.com/danmincu/one-click-installers-m40/oobabooga-windows/linux-install.sh](https://github.com/danmincu/one-click-installers-m40/blob/oobabooga-windows/linux-install.sh))
+[linux-install.sh](https://raw.githubusercontent.com/danmincu/one-click-installers-m40/oobabooga-windows/linux-install.sh](https://github.com/danmincu/one-click-installers-m40/blob/oobabooga-windows/linux-install.sh)
 
-Context: Ubuntu 22.04 minimal server
-Install and reboot the Nvidia driver before running the linux-install.sh
-**NOTE**: cuda-11.7 is important for the Tesla M40 to work
+Prerequisite:
+ - Ubuntu 22.04 minimal server
+ - git (sudo apt-get install git)
+ - install Nvidia drivers with cuda-11.7 **NOTE**: this version is important for the Tesla M40 to work
+ - reboot after GPU drivers are installed
 
 ```
 # Updated the drivers with the following commands
