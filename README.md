@@ -52,9 +52,9 @@ Source codes: https://github.com/danmincu/one-click-installers-m40
 > 
 > There is no need to run the installer as admin.
 
-### Install the Tesla M40 on Ubuntu 22.04 minimal server with Nvidia updated drivers
+### Install the Tesla M40 *specific version* on Ubuntu 22.04
 
-[linux-install.sh](https://raw.githubusercontent.com/danmincu/one-click-installers-m40/oobabooga-windows/linux-install.sh](https://github.com/danmincu/one-click-installers-m40/blob/oobabooga-windows/linux-install.sh)
+[linux-install.sh](https://github.com/danmincu/one-click-installers-m40/blob/oobabooga-windows/linux-install.sh)
 
 Prerequisite:
  - Ubuntu 22.04 minimal server
