@@ -37,7 +37,7 @@ Its goal is to become the [AUTOMATIC1111/stable-diffusion-webui](https://github.
 
 ### One-click installers
 
-Just download the zip above, extract it, and double click on "install". The web UI and all its dependencies will be installed in the same folder.
+Just all the files in the source code below as zip, extract it, and double click on "install". The web UI and all its dependencies will be installed in the same folder.
 
 * To download a model, double click on "download-model"
 * To start the web UI, double click on "start-webui" 
