@@ -42,9 +42,9 @@ RUN . /app/venv/bin/activate && \
     pip3 install --upgrade pip setuptools && \
     pip3 install torch torchvision torchaudio
 
-COPY --from=builder /build /app/repositories/GPTQ-for-LLaMa
+COPY --from=builder /build /app/repositories/GPTQGPTQ-for-LLaMa-m40
 RUN . /app/venv/bin/activate && \
-    pip3 install /app/repositories/GPTQ-for-LLaMa/*.whl
+    pip3 install /app/repositories/GPTQ-for-LLaMa-m40/*.whl
 
 COPY extensions/api/requirements.txt /app/extensions/api/requirements.txt
 COPY extensions/elevenlabs_tts/requirements.txt /app/extensions/elevenlabs_tts/requirements.txt
