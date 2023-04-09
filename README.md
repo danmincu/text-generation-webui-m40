@@ -54,8 +54,6 @@ Source codes: https://github.com/danmincu/one-click-installers-m40
 
 ### Install the Tesla M40 *specific version* on Ubuntu 22.04
 
-[linux-install.sh](https://github.com/danmincu/one-click-installers-m40/blob/oobabooga-windows/linux-install.sh)
-
 Prerequisite:
  - Ubuntu 22.04 minimal server
  - git (sudo apt-get install git)
@@ -72,6 +70,10 @@ sudo add-apt-repository "deb https://developer.download.nvidia.com/compute/cuda/
 sudo apt-get update
 sudo apt-get -y install cuda-11.7
 ```
+Run the following script in your home directory 
+[linux-install.sh](https://github.com/danmincu/one-click-installers-m40/blob/oobabooga-windows/linux-install.sh)
+
+Note: this git forked [GPTQ-for-LLaMa](https://github.com/danmincu/GPTQ-for-LLaMa-M40) is the secret *sauce* to have the M40 working.
 
 
 
