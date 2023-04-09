@@ -4,7 +4,7 @@ RUN apt-get update && \
     apt-get install --no-install-recommends -y git vim build-essential python3-dev python3-venv && \
     rm -rf /var/lib/apt/lists/*
 
-RUN git clone https://github.com/oobabooga/GPTQ-for-LLaMa /build
+RUN git clone https://github.com/danmincu/GPTQ-for-LLaMa-M40 -b cuda-M40 /build
 
 WORKDIR /build
 
