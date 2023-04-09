@@ -13,4 +13,4 @@ safetensors==0.3.0
 sentencepiece
 pyyaml
 tqdm
-git+https://github.com/huggingface/transformers
+git+https://github.com/danmincu/transformers-M40
