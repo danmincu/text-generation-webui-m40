@@ -58,8 +58,9 @@ Source codes: https://github.com/danmincu/one-click-installers-m40
 
 Context: Ubuntu 22.04 minimal server
 Install and reboot the Nvidia driver before running the linux-install.sh
-**NOTE**: cuda-11.7 is important for the M40 to work
-`
+**NOTE**: cuda-11.7 is important for the Tesla M40 to work
+
+```
 # Updated the drivers with the following commands
 
 wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/x86_64/cuda-ubuntu2204.pin
@@ -68,7 +69,7 @@ sudo apt-key adv --fetch-keys https://developer.download.nvidia.com/compute/cuda
 sudo add-apt-repository "deb https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/x86_64/ /"
 sudo apt-get update
 sudo apt-get -y install cuda-11.7
-`
+```
 
 
 
