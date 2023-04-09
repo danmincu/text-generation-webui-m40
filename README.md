@@ -54,7 +54,7 @@ Source codes: https://github.com/danmincu/one-click-installers-m40
 
 ### Tested Tesla M40 on Ubuntu 22.04 minimal server (+ git) and Nvidia updated drivers
 
-[linux-install.sh](https://raw.githubusercontent.com/danmincu/one-click-installers-m40/oobabooga-windows/linux-install.sh)
+[linux-install.sh]([https://raw.githubusercontent.com/danmincu/one-click-installers-m40/oobabooga-windows/linux-install.sh](https://github.com/danmincu/one-click-installers-m40/blob/oobabooga-windows/linux-install.sh))
 
 Context: Ubuntu 22.04 minimal server
 Install and reboot the Nvidia driver before running the linux-install.sh
